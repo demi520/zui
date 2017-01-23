@@ -1,0 +1,15 @@
+<import src="/dist/toast/index.wxml" />
+
+<view class="container">
+  <view class="zui-btns">
+    <button
+      class="zui-btn zui-btn--primary zui-btn--large"
+      catchtap="showToast"
+      style="margin-top: 40vh;"
+    >
+      弹个窗~
+    </button>
+  </view>
+</view>
+
+<template is="zui-toast" data="{{ zuiToast }}"></template>

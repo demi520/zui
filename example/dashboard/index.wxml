@@ -1,0 +1,10 @@
+<view class="container">
+
+  <view class="zui-panel">
+    <navigator wx:for="{{ list }}" wx:key="name" class="zui-cell zui-cell--access" url="{{ item.path }}">
+      <view class="zui-cell__bd">{{ item.name }}</view>
+      <view class="zui-cell__ft"></view>
+    </navigator>
+  </view>
+
+</view>
